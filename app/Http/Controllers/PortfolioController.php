@@ -14,7 +14,7 @@ class PortfolioController extends Controller
             'avatar' => 'images/avatar.jpg',
             'email' => 'xlaurence02@example.com',
             'phone' => '+63 962 251 8929',
-            'github' => 'https://github.com/supremo-a/andrewlbp',
+            'github' => 'https://github.com/supremo-a/Perlas-Portfolio',
         ];
 
         $education = [

@@ -12,9 +12,17 @@
     <!-- Navbar -->
     <nav class="sticky top-0 z-50 backdrop-blur-md bg-gray-950/80 border-b border-gray-800">
         <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="#about" class="text-xl font-bold bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">
-                LP<span class="text-indigo-500">.</span>dev
+            
+            <!-- Brand Logo & Name -->
+            <a href="#about" class="flex items-center gap-3 group">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 to-cyan-500 flex items-center justify-center text-white font-extrabold shadow-lg shadow-indigo-500/20 group-hover:scale-105 transition duration-300 border border-indigo-400/30">
+                    <i class="fa-solid fa-code text-lg"></i>
+                </div>
+                <span class="text-xl font-bold bg-gradient-to-r from-indigo-400 via-cyan-400 to-white bg-clip-text text-transparent">
+                    LP<span class="text-indigo-500">.</span>dev
+                </span>
             </a>
+
             <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-300">
                 <a href="#about" class="hover:text-indigo-400 transition">About</a>
                 <a href="#education" class="hover:text-indigo-400 transition">Education</a>

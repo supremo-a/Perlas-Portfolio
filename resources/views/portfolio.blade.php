@@ -12,7 +12,7 @@
     <!-- Navbar -->
     <nav class="sticky top-0 z-50 backdrop-blur-md bg-gray-950/80 border-b border-gray-800">
         <div class="max-w-5xl mx-auto px-6 py-4 flex justify-between items-center">
-            <a href="#profile" class="text-xl font-bold bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">
+            <a href="#about" class="text-xl font-bold bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">
                 LP<span class="text-indigo-500">.</span>dev
             </a>
             <div class="hidden md:flex space-x-8 text-sm font-medium text-gray-300">
@@ -21,9 +21,6 @@
                 <a href="#skills" class="hover:text-indigo-400 transition">Skills</a>
                 <a href="#certifications" class="hover:text-indigo-400 transition">Certifications</a>
             </div>
-            <a href="mailto:{{ $profile['email'] }}" class="bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold px-4 py-2 rounded-full transition shadow-lg shadow-indigo-500/20">
-                Hire Me
-            </a>
         </div>
     </nav>
 
@@ -42,9 +39,6 @@
                 
                 <div class="text-center md:text-left space-y-4 flex-1">
                     <div>
-                        <span class="inline-block px-3 py-1 text-xs font-semibold uppercase tracking-wider text-indigo-400 bg-indigo-950/80 border border-indigo-800/50 rounded-full mb-3">
-                            Available for Opportunities
-                        </span>
                         <h1 class="text-3xl md:text-5xl font-extrabold tracking-tight text-white">
                             {{ $profile['name'] }}
                         </h1>

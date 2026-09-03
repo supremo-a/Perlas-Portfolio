@@ -19,3 +19,8 @@
 * **Prompt:** "How do I configure `.htaccess` in Laravel for shared hosting on InfinityFree?"
 * **AI Output:** Provided root `.htaccess` rules redirecting requests to the public directory.
 * **Action Taken:** Accepted as-is and tested deployment structure.
+
+## Session 5: UI/UX & Responsive Redesign
+* **Prompt:** "Improvise the design of portfolio.blade.php with a sticky navigation bar, FontAwesome icons, glassmorphism cards, and modern dark-mode Tailwind CSS styling."
+* **AI Output:** Provided updated single-page template with hero gradients, sticky navbar, dynamic skill badges, and responsive timeline layout.
+* **Action Taken:** Accepted as-is for resources/views/portfolio.blade.php.

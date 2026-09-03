@@ -74,7 +74,7 @@
         <section id="education" class="space-y-6">
             <div class="flex items-center gap-3 border-b border-gray-800 pb-4">
                 <i class="fa-solid fa-graduation-cap text-indigo-400 text-2xl"></i>
-                <h2 class="text-2xl font-bold tracking-tight text-white">Education Timeline</h2>
+                <h2 class="text-2xl font-bold tracking-tight text-white">Education</h2>
             </div>
             
             <div class="grid gap-6 md:grid-cols-3">
@@ -99,7 +99,7 @@
         <section id="skills" class="space-y-6">
             <div class="flex items-center gap-3 border-b border-gray-800 pb-4">
                 <i class="fa-solid fa-code text-indigo-400 text-2xl"></i>
-                <h2 class="text-2xl font-bold tracking-tight text-white">Tech Stack & Tools</h2>
+                <h2 class="text-2xl font-bold tracking-tight text-white">Skills</h2>
             </div>
             
             <div class="flex flex-wrap gap-3">
